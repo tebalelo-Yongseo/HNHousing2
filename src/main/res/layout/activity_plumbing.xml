@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#FFEB3B"
+tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plumbing"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFEB3B"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <Button
+        android:id="@+id/btnPOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blocked Drains"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:backgroundTint="#03A9F4" />
+
+    <Button
+        android:id="@+id/btnPOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leak Pipes"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:backgroundTint="#00BCD4" />
+
+    <Button
+        android:id="@+id/btnPOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pipe compression"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:backgroundTint="#2196F3" />
+
+    <Button
+        android:id="@+id/btnPOption4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Geyser Repairs"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:backgroundTint="#2196F3" />
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

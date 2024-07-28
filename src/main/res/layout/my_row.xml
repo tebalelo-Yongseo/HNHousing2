@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainLayout">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/txtR1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="1"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtR2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="Title 1"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                app:layout_constraintStart_toEndOf="@+id/txtR1"
+                app:layout_constraintTop_toTopOf="@+id/txtR1" />
+
+            <TextView
+                android:id="@+id/txtR3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author1"
+                app:layout_constraintStart_toStartOf="@+id/txtR2"
+                app:layout_constraintTop_toBottomOf="@+id/txtR2"
+                 />
+
+            <TextView
+                android:id="@+id/txtR4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author1"
+                app:layout_constraintStart_toStartOf="@+id/txtR3"
+                app:layout_constraintTop_toBottomOf="@+id/txtR3"
+                />
+
+            <TextView
+                android:id="@+id/txtR5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author1"
+                app:layout_constraintStart_toStartOf="@+id/txtR4"
+                app:layout_constraintTop_toBottomOf="@+id/txtR4"
+                 />
+
+            <TextView
+                android:id="@+id/txtR6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author1"
+                app:layout_constraintStart_toStartOf="@+id/txtR5"
+                app:layout_constraintTop_toBottomOf="@+id/txtR5"
+                 />
+
+            <TextView
+                android:id="@+id/txtR7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author1"
+                app:layout_constraintStart_toStartOf="@+id/txtR6"
+                app:layout_constraintTop_toBottomOf="@+id/txtR6"
+                 />
+
+            <TextView
+                android:id="@+id/txtR8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author1"
+                app:layout_constraintStart_toStartOf="@+id/txtR7"
+                app:layout_constraintTop_toBottomOf="@+id/txtR7"
+                 />
+
+            <TextView
+                android:id="@+id/txtR9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author1"
+                app:layout_constraintStart_toStartOf="@+id/txtR8"
+                app:layout_constraintTop_toBottomOf="@+id/txtR8"
+                 />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#03A9F4"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <Button
+            android:id="@+id/btnElectrical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Electrical"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="#FFEB3B"/>
+
+        <Button
+            android:id="@+id/btnPlumbing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plumbing"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="#FFC107"/>
+
+        <Button
+            android:id="@+id/btnFurniture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Furniture"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="#FF5722"/>
+
+        <Button
+            android:id="@+id/btnVieww"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="@color/white"/>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
